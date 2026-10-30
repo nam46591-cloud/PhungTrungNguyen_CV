@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV Cá Nhân & Thư Ứng Tuyển - Phùng Trung Nguyên | Sinh viên Ngành Công nghệ Kỹ thuật Ô tô - Đại học Lạc Hồng">
+  <meta name="author" content="Phùng Trung Nguyên">
+  <title>CV & Thư Ứng Tuyển - Phùng Trung Nguyên | Kỹ Thuật Ô Tô</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+        </div>
+        <div class="brand-title">
+          <span>Phùng Trung Nguyên</span>
+          <span>SINH VIÊN KỸ THUẬT Ô TÔ</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Trang Chủ</a>
+        <a href="#about" class="nav-link">Giới Thiệu</a>
+        <a href="#education" class="nav-link">Học Vấn</a>
+        <a href="#experience" class="nav-link">Kinh Nghiệm</a>
+        <a href="#robocon" class="nav-link">Robocon 2024</a>
+        <a href="#competition" class="nav-link">Hội Thi Tay Nghề</a>
+        <a href="#cad" class="nav-link">AutoCAD & CATIA</a>
+        <a href="#other-skills" class="nav-link">Kỹ Năng Khác</a>
+        <a href="#cover-letter" class="nav-link" style="color:var(--accent-secondary); font-weight:700;">Thư Ứng Tuyển</a>
+        <a href="#cv-image" class="nav-link">Ảnh CV</a>
+        <a href="#contact" class="nav-link">Liên Hệ</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Print Button -->
+        <button class="btn btn-outline btn-print-cv" title="In CV & Thư">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>In CV</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+          <span id="themeIcon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Mobile Menu Trigger -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO / HEADER SECTION ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Left Info -->
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <span class="badge badge-primary">CURRICULUM VITAE</span>
+            <span class="badge badge-cyan">Đại học Lạc Hồng</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="gradient-text">PHÙNG TRUNG NGUYÊN</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span class="typed-text" id="typedText">SINH VIÊN KỸ THUẬT Ô TÔ</span>
+          </div>
+
+          <!-- Châm ngôn nguyên văn từ file -->
+          <div class="hero-motto">
+            “Không ngừng học hỏi – Tích lũy kinh nghiệm – Phát triển bản thân để đóng góp giá trị cho công việc và xã hội.”
+          </div>
+
+          <!-- Thông tin cá nhân chính xác từ file -->
+          <div class="hero-meta-grid">
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </div>
+              <div class="meta-text">
+                <strong>Họ và tên</strong>
+                <span>Phùng Trung Nguyên</span>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              </div>
+              <div class="meta-text">
+                <strong>Ngày sinh & Giới tính</strong>
+                <span>28/06/2005 | Nam</span>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="meta-text">
+                <strong>Số điện thoại</strong>
+                <span>0373166715</span>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="meta-text">
+                <strong>Địa chỉ Email</strong>
+                <span>nam46591@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="meta-item" style="grid-column: span 2;">
+              <div class="meta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="meta-text">
+                <strong>Địa chỉ</strong>
+                <span>Phú Yên</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="hero-cta">
+            <a href="#cover-letter" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Xem Thư Ứng Tuyển
+            </a>
+            <button class="btn btn-secondary" data-lightbox-src="assets/images/cv-original.png" data-lightbox-caption="Ảnh CV Gốc - Phùng Trung Nguyên">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              Xem Ảnh CV Gốc
+            </button>
+            <a href="tel:0373166715" class="btn btn-outline">
+              0373166715
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right: Avatar Card -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="avatar-wrapper">
+              <img src="assets/images/avatar.png" alt="Ảnh chân dung Phùng Trung Nguyên" class="avatar-img">
+              <div class="avatar-halo"></div>
+            </div>
+
+            <h2 class="profile-name">Phùng Trung Nguyên</h2>
+            <p class="profile-role">Sinh viên Kỹ thuật Ô tô</p>
+
+            <div style="font-style:italic; font-size:0.88rem; color:var(--text-secondary); margin-bottom:12px;">
+              “Đam mê ô tô – Kiến tạo tương lai”
+            </div>
+            <div style="font-size:0.8rem; color:var(--text-muted); font-family:var(--font-mono);">
+              Learning today for a better tomorrow
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GIỚI THIỆU BẢN THÂN & MỤC TIÊU ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">HỒ SƠ CÁ NHÂN</span>
+          <h2 class="section-title">Giới Thiệu Bản Thân & Mục Tiêu Nghề Nghiệp</h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Giới thiệu bản thân -->
+          <div class="about-card">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              Giới Thiệu Bản Thân
+            </h3>
+            <p>
+              Sinh viên năm 4 ngành Công nghệ Kỹ thuật Ô tô, với nền tảng kiến thức chuyên môn vững chắc và tinh thần học hỏi, tôi mong muốn tìm kiếm cơ hội thực tập và làm việc trong môi trường chuyên nghiệp để áp dụng những kiến thức đã học, rèn luyện kỹ năng thực tế và phát triển bản thân trong lĩnh vực kỹ thuật ô tô.
+            </p>
+          </div>
+
+          <!-- Mục tiêu nghề nghiệp -->
+          <div class="about-card">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              Mục Tiêu Nghề Nghiệp
+            </h3>
+            <ul class="timeline-list">
+              <li>Áp dụng kiến thức đã học vào thực tế, nâng cao kỹ năng chuyên môn.</li>
+              <li>Tích lũy kinh nghiệm, trở thành kỹ thuật viên ô tô giỏi, có thể đảm nhận các vị trí chuyên môn cao hơn trong tương lai.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HỌC VẤN ================= -->
+    <section class="section" id="education" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">QUÁ TRÌNH ĐÀO TẠO</span>
+          <h2 class="section-title">Học Vấn</h2>
+        </div>
+
+        <div style="max-width:800px; margin:0 auto;">
+          <div class="edu-card">
+            <div class="card-top">
+              <span class="badge badge-primary">Đại học Lạc Hồng</span>
+              <span style="font-family:var(--font-mono); font-size:0.88rem; color:var(--text-muted);">2023 – 2027 (dự kiến)</span>
+            </div>
+            <h3 class="edu-title">Đại Học Lạc Hồng</h3>
+            <div class="edu-sub">Sinh viên năm 4 | Ngành Công nghệ Kỹ thuật Ô tô</div>
+
+            <ul class="timeline-list">
+              <li><strong>Thời gian đào tạo:</strong> 2023 – 2027 (dự kiến)</li>
+              <li><strong>Xếp loại:</strong> Đang học</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= KINH NGHIỆM LÀM VIỆC TẠI HYUNDAI ================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">KINH NGHIỆM LÀM VIỆC</span>
+          <h2 class="section-title">Thực Tập Sinh tại Hyundai Ngọc Phát Biên Hòa</h2>
+          <p class="section-desc">Xưởng dịch vụ (06/2024 – 09/2024) | Đồng Nai</p>
+        </div>
+
+        <div style="max-width:960px; margin:0 auto;">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Thực tập sinh tại Hyundai Ngọc Phát Biên Hòa / Xưởng dịch vụ</h3>
+                <div class="timeline-org">Đồng Nai</div>
+              </div>
+              <span class="timeline-date">06/2024 – 09/2024</span>
+            </div>
+
+            <ul class="timeline-list">
+              <li>Được tiếp cận môi trường làm việc thực tế tại xưởng dịch vụ ô tô, tìm hiểu quy trình tiếp nhận xe và bảo dưỡng định kỳ theo tiêu chuẩn của Hyundai.</li>
+              <li>Hỗ trợ kỹ thuật viên trong việc kiểm tra, bảo dưỡng và sửa chữa các hạng mục cơ bản của ô tô.</li>
+              <li>Tham gia hỗ trợ các công việc bảo dưỡng nhanh như thay dầu động cơ, thay dầu phanh, kiểm tra hệ thống phanh và kiểm tra tình trạng kỹ thuật của xe.</li>
+              <li>Thực hiện các công việc vệ sinh, kiểm tra xe, thay dầu, lốp, phanh...</li>
+              <li>Làm quen với các dụng cụ, thiết bị sửa chữa và quy trình sử dụng thiết bị trong xưởng dịch vụ ô tô.</li>
+              <li>Học hỏi cách kiểm tra, đánh giá tình trạng xe, nhận biết các dấu hiệu bất thường và hỗ trợ kỹ thuật viên trong quá trình bảo dưỡng.</li>
+              <li>Học hỏi và tích lũy kinh nghiệm thực tế về quy trình làm việc tại xưởng dịch vụ.</li>
+              <li>Nắm được tầm quan trọng của việc tuân thủ quy trình kỹ thuật, quy định an toàn lao động và giữ gìn vệ sinh khu vực làm việc.</li>
+              <li>Hình thành thói quen kỷ luật cao trong việc trang bị đầy đủ bảo hộ lao động (PPE), tuân thủ quy trình vận hành thiết bị nâng hạ, chẩn đoán điện và xử lý hóa chất an toàn.</li>
+              <li>Luôn chủ động nhận diện các yếu tố nguy hiểm phát sinh, kiểm tra kỹ lưỡng các trang thiết bị trước khi thao tác và sẵn sàng ứng phó với các tình huống khẩn cấp.</li>
+              <li>Rèn luyện kỹ năng làm việc nhóm, tác phong chuyên nghiệp, tính cẩn thận và tinh thần trách nhiệm trong công việc.</li>
+              <li>Tích lũy kinh nghiệm thực tế, củng cố kiến thức chuyên ngành Công nghệ Kỹ thuật Ô tô và định hướng phát triển nghề nghiệp trong lĩnh vực dịch vụ, bảo dưỡng và sửa chữa ô tô.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ROBOCON 2024 ================= -->
+    <section class="section" id="robocon" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">HOẠT ĐỘNG KỸ THUẬT</span>
+          <h2 class="section-title">Cuộc Thi Robocon 2024</h2>
+          <p class="section-desc">Đạt thành tích lọt vào vòng chung kết Robocon 2024.</p>
+        </div>
+
+        <div style="max-width:960px; margin:0 auto 40px;">
+          <div class="timeline-card">
+            <div style="margin-bottom:16px;">
+              <span class="badge badge-amber" style="font-size:0.95rem;">Đạt thành tích lọt vào vòng chung kết Robocon 2024.</span>
+            </div>
+
+            <ul class="timeline-list">
+              <li>Có kinh nghiệm thiết kế, lắp ráp, đấu nối mạch điện và lập trình điều khiển robot.</li>
+              <li>Vận dụng kiến thức cơ khí, điện – điện tử và lập trình vào thực tế.</li>
+              <li>Rèn luyện kỹ năng phân tích lỗi, khắc phục sự cố và tối ưu hoạt động của robot.</li>
+              <li>Phát triển khả năng làm việc nhóm, tư duy kỹ thuật và chịu áp lực trong quá trình thi đấu.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2 Robocon Images from File -->
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:24px; max-width:960px; margin:0 auto;">
+          <div class="gallery-item" data-caption="Đội tuyển Robocon trên sân khấu chung kết Robocon 2024">
+            <div class="gallery-thumb-wrap" style="height:300px;">
+              <img src="assets/images/robocon-team.png" alt="Đội tuyển Robocon trên sân khấu" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">HÌNH ẢNH TRONG FILE GỐC</span>
+                <h4 class="gallery-caption-title">Đội tuyển Robocon 2024</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-caption="Sân tập, thử nghiệm và lắp ráp robot">
+            <div class="gallery-thumb-wrap" style="height:300px;">
+              <img src="assets/images/robocon-arena.png" alt="Sân tập và robot" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">HÌNH ẢNH TRONG FILE GỐC</span>
+                <h4 class="gallery-caption-title">Sân Tập & Lắp Ráp Robot</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HỘI THI TAY NGHỀ 2026 ================= -->
+    <section class="section" id="competition">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CUỘC THI TAY NGHỀ</span>
+          <h2 class="section-title">Hội Thi Tay Nghề 2026</h2>
+        </div>
+
+        <div style="max-width:960px; margin:0 auto 36px;">
+          <!-- Image from file -->
+          <div class="gallery-item" style="margin-bottom:30px;" data-caption="Hội thi tay nghề ô tô LHU 2026 - Khoa Cơ điện - Điện tử">
+            <div class="gallery-thumb-wrap" style="height:380px;">
+              <img src="assets/images/skill-competition-2026.png" alt="Hội thi tay nghề ô tô LHU 2026" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">HÌNH ẢNH TRONG FILE GỐC</span>
+                <h4 class="gallery-caption-title">Hội Thi Tay Nghề Ô Tô LHU 2026</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Exact details from docx -->
+          <div class="timeline-card">
+            <ul class="timeline-list" style="font-size:1rem;">
+              <li><strong>Tình huống dự án:</strong> Tham gia cuộc thi Hội Thi Tay Nghề diễn ra lần đầu tiên khi tôi học năm 3. đây là một cuộc thi tạo ra để cho sinh viên có cơ hội được cọ sát và thể hiện trình độ của mình sau các buổi học lý thuyết.</li>
+              <li><strong>Nhiệm vụ:</strong> Với tư cách là trưởng nhóm, tôi lên kế hoạch chi tiết về quy trình tháo lắp theo tiêu chuẩn với sự chính xác và dễ dàng cho các thành viên.</li>
+              <li><strong>Hành động:</strong> Chúng tôi cùng nhau nghiên cứu lý thuyết và cùng nhau thực hành nhiều lần để tạo kết quả tốt nhất.</li>
+              <li><strong>Kết quả:</strong> Chúng tôi đạt được kết quả khá tốt đó là <strong>top 1 phần lý thuyết</strong> và <strong>giải khuyến khích phần thi thực hành</strong>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VẼ THIẾT KẾ TRÊN AUTOCAD & CATIA ================= -->
+    <section class="section" id="cad" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">THIẾT KẾ KỸ THUẬT</span>
+          <h2 class="section-title">Vẽ Thiết Kế Trên AutoCAD & CATIA</h2>
+        </div>
+
+        <div style="max-width:960px; margin:0 auto;">
+          <!-- AutoCAD text from docx -->
+          <div class="about-card" style="margin-bottom:36px;">
+            <h3 style="text-transform:uppercase;">VẼ THIẾT KẾ TRÊN AUTOCAD</h3>
+            <p>
+              Trong suốt quá trình học tập và nghiên cứu ngành Công nghệ Kỹ thuật Ô tô, tôi đã dành nhiều thời gian đắm mình vào việc làm chủ phần mềm AutoCAD – công cụ nền tảng trong thiết kế và thể hiện bản vẽ kỹ thuật. Tôi luôn cố gắng tìm hiểu sâu hơn về cách chuyển đổi ý tưởng, cấu tạo chi tiết máy cũng như mặt bằng xưởng sửa chữa thành các bản vẽ 2D chính xác và đạt chuẩn kỹ thuật. Việc nghiên cứu AutoCAD không chỉ dừng lại ở các lệnh vẽ cơ bản, mà là quá trình rèn luyện tư duy bố cục, tính chính xác trong từng tỷ lệ và chuẩn hóa hệ thống ký hiệu kỹ thuật.
+            </p>
+          </div>
+
+          <!-- 2 Images from file: CATIA Gear Shaft + CATIA Certificate -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:24px;">
+            <!-- CATIA Gear Shaft Image -->
+            <div class="gallery-item" data-caption="Hình ảnh bản vẽ CATIA V5 - Trục Bánh Răng (TrucBanhRang.CATPart)">
+              <div class="gallery-thumb-wrap" style="height:280px;">
+                <img src="assets/images/catia-gear-shaft.png" alt="CATIA V5 - Trục Bánh Răng" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="gallery-category">HÌNH ẢNH TRONG FILE GỐC</span>
+                  <h4 class="gallery-caption-title">CATIA V5 - Trục Bánh Răng</h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- CATIA Certificate Image -->
+            <div class="gallery-item" data-caption="Chứng chỉ Dassault Systèmes: PHUNG TRUNG NGUYEN - CATIA V5 Part Design (Associate Level)">
+              <div class="gallery-thumb-wrap" style="height:280px;">
+                <img src="assets/images/catia-certificate.png" alt="Chứng chỉ Dassault Systèmes CATIA V5" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="gallery-category">HÌNH ẢNH TRONG FILE GỐC</span>
+                  <h4 class="gallery-caption-title">Chứng Chỉ Dassault Systèmes CATIA V5</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= KỸ NĂNG & KỸ NĂNG KHÁC ================= -->
+    <section class="section" id="other-skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">NĂNG LỰC & TÁC PHONG</span>
+          <h2 class="section-title">Kỹ Năng & Kỹ Năng Khác</h2>
+        </div>
+
+        <!-- Kỹ năng chuyên môn từ CV -->
+        <div style="max-width:960px; margin:0 auto 40px;">
+          <div class="about-card">
+            <h3>Kỹ Năng Chuyên Môn</h3>
+            <ul class="timeline-list">
+              <li><strong>Phần mềm kỹ thuật:</strong> Có kiến thức nền tảng và sử dụng được các lệnh vẽ hình 3D cơ bản trong phần mềm Catia.</li>
+              <li><strong>Kỹ thuật ô tô:</strong> Có kiến thức cơ bản và động cơ đốt trong và các hạng mục bảo dưỡng cơ bản.</li>
+              <li><strong>Vận độ làm việc:</strong> Có trách nhiệm với công việc được giao, không ngại các công việc thực tế tại xưởng (như vệ sinh, hỗ trợ kỹ thuật).</li>
+              <li><strong>Thông tin bổ sung - CATIA:</strong> Có kiến thức nền tảng và sử dụng được các lệnh và hình 3D cơ bản trong phần mềm Catia.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Kỹ Năng Khác (3S-5S, Khởi Nghiệp, An Toàn) với 3 ảnh từ file -->
+        <div style="max-width:960px; margin:0 auto;">
+          <h3 style="font-size:1.35rem; font-weight:700; margin-bottom:24px; text-transform:uppercase;">KỸ NĂNG KHÁC</h3>
+
+          <div style="display:flex; flex-direction:column; gap:30px;">
+            <!-- 1. Kỹ năng 3S - 5S -->
+            <div class="about-card" style="display:grid; grid-template-columns:260px 1fr; gap:24px; align-items:center;">
+              <div class="gallery-item" data-caption="Kỹ năng 3S – 5S">
+                <div class="gallery-thumb-wrap" style="height:170px;">
+                  <img src="assets/images/skill-5s.png" alt="Kỹ năng 3S - 5S" loading="lazy">
+                </div>
+              </div>
+              <div>
+                <h4 style="font-size:1.15rem; font-weight:700; margin-bottom:8px;">KỸ NĂNG 3S – 5S</h4>
+                <p style="color:var(--text-secondary); line-height:1.65;">
+                  Trong quá trình học tập và thực hành tại đại lý Hyundai Ngọc Phát Biên Hòa, tôi đã từng bước rèn luyện tác phong làm việc chuyên nghiệp, ý thức tuân thủ an toàn lao động (PPE) và áp dụng nguyên tắc 5S trong môi trường học tập, thực hành kỹ thuật. Chủ động sắp xếp dụng cụ, thiết bị đúng vị trí, giữ gìn vệ sinh khu vực làm việc và tuân thủ quy trình thực hành. Qua đó, hình thành tính kỷ luật, tinh thần trách nhiệm, khả năng làm việc nhóm và ý thức xây dựng môi trường học tập, làm việc an toàn, sạch sẽ và hiệu quả.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2. Kỹ năng khởi nghiệp -->
+            <div class="about-card" style="display:grid; grid-template-columns:260px 1fr; gap:24px; align-items:center;">
+              <div class="gallery-item" data-caption="Kỹ năng khởi nghiệp">
+                <div class="gallery-thumb-wrap" style="height:170px;">
+                  <img src="assets/images/skill-startup.jpeg" alt="Kỹ năng khởi nghiệp" loading="lazy">
+                </div>
+              </div>
+              <div>
+                <h4 style="font-size:1.15rem; font-weight:700; margin-bottom:8px;">Kỹ Năng Khởi Nghiệp</h4>
+                <p style="color:var(--text-secondary); line-height:1.65;">
+                  Việc nghiên cứu và lập dự án thực tế về xây dựng trạm dịch vụ ô tô đã giúp tôi định hình rõ nét tư duy của một người làm chủ: không chỉ hiểu rõ kỹ thuật mà còn phải nhạy bén với thị trường, tối ưu hóa chi phí và quản lý rủi ro. Xuất phát từ tinh thần khởi nghiệp, tôi luôn chủ động tìm tòi các giải pháp nâng cao trải nghiệm khách hàng, áp dụng công nghệ chuyển đổi số trong quản lý phụ tùng và dịch vụ. Tôi tin rằng, sự kết hợp giữa nền tảng kỹ thuật vững chắc và tư duy khởi nghiệp kinh doanh nhạy bén sẽ là động lực lớn giúp tôi không ngừng sáng tạo, đóng góp hiệu quả cho sự phát triển của doanh nghiệp hoặc tự tin từng bước xây dựng mô hình dịch vụ của riêng mình trong tương lai.
+                </p>
+              </div>
+            </div>
+
+            <!-- 3. Kỹ năng an toàn -->
+            <div class="about-card" style="display:grid; grid-template-columns:260px 1fr; gap:24px; align-items:center;">
+              <div class="gallery-item" data-caption="Kỹ năng an toàn">
+                <div class="gallery-thumb-wrap" style="height:170px;">
+                  <img src="assets/images/skill-safety.jpeg" alt="Kỹ năng an toàn" loading="lazy">
+                </div>
+              </div>
+              <div>
+                <h4 style="font-size:1.15rem; font-weight:700; margin-bottom:8px;">Kỹ Năng An Toàn</h4>
+                <p style="color:var(--text-secondary); line-height:1.65;">
+                  Trong quá trình làm việc tại xưởng bảo dưỡng, tôi luôn đặt yếu tố an toàn lên hàng đầu. Tôi đã hình thành thói quen tự giác tuân thủ mọi quy chuẩn từ trang bị bảo hộ, vận hành cầu nâng, máy chẩn đoán đến xử lý hóa chất. Tôi luôn chủ động kiểm tra thiết bị trước giờ làm để chắc chắn không bỏ sót bất kỳ rủi ro nào. Đối với tôi, cẩn trọng và kỷ luật không chỉ là quy định, mà là nền tảng để hoàn thành tốt nhất mọi công việc kỹ thuật được giao.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= THƯ NGỎ ỨNG TUYỂN (GIỐNG MẪU ẢNH) ================= -->
+    <section class="section" id="cover-letter" style="background: var(--bg-secondary);">
+      <div class="container">
+        <!-- Top Pill Badge (Giống mẫu ảnh) -->
+        <div style="text-align: center; margin-bottom: 8px;">
+          <span class="cover-letter-tag">05 / THƯ NGỎ ỨNG TUYỂN</span>
+        </div>
+
+        <!-- Main Title (Giống mẫu ảnh) -->
+        <h2 class="cover-letter-main-title">Thư gửi Nhà tuyển dụng</h2>
+
+        <!-- Email Mockup Window Container (Giống mẫu ảnh) -->
+        <div class="email-mockup-card">
+          <!-- Window Header Bar (macOS style dots + filename + lang toggle + copy btn) -->
+          <div class="email-window-bar">
+            <div class="window-dots-file">
+              <div class="window-dots">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+              </div>
+              <span class="window-filename">application_automotive_engineer.eml</span>
+            </div>
+
+            <div class="window-actions">
+              <!-- Language Switcher Pill -->
+              <div class="lang-switcher-pill">
+                <button type="button" class="lang-btn active" id="langBtnVi">
+                  <span style="font-size:0.75rem;">🇻🇳</span> Tiếng Việt
+                </button>
+                <button type="button" class="lang-btn" id="langBtnEn">
+                  <span style="font-size:0.75rem;">🇬🇧</span> English
+                </button>
+              </div>
+
+              <!-- Copy Content Button -->
+              <button type="button" class="copy-email-btn" id="copyCoverLetterBtn" title="Sao chép toàn bộ nội dung thư">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy nội dung</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Email Body Inner -->
+          <div class="email-body-inner">
+            <!-- ================= BẢN TIẾNG VIỆT (CHUẨN TỪ YÊU CẦU CỦA BẠN) ================= -->
+            <div id="coverLetterVi" class="cover-letter-lang active">
+              <div class="email-meta-group">
+                <div class="email-meta-row">
+                  <span class="email-meta-label">Từ:</span>
+                  <span class="email-meta-value">nam46591@gmail.com</span>
+                </div>
+                <div class="email-meta-row">
+                  <span class="email-meta-label">Đến:</span>
+                  <span class="email-meta-value">Ban Giám đốc và Bộ phận Tuyển dụng Công ty Hyundai Ngọc Phát – Biên Hòa</span>
+                </div>
+                <div class="email-meta-row">
+                  <span class="email-meta-label">Tiêu đề:</span>
+                  <span class="email-meta-value">Thư ứng tuyển – Kỹ thuật viên Ô tô – Phùng Trung Nguyên</span>
+                </div>
+              </div>
+
+              <p class="email-salutation">Kính gửi: Ban Giám đốc và Bộ phận Tuyển dụng Công ty Hyundai Ngọc Phát – Biên Hòa,</p>
+
+              <p class="email-paragraph">
+                Tôi tên là <strong>Phùng Trung Nguyên</strong>, hiện là sinh viên năm cuối chuyên ngành <strong>Kỹ thuật ô tô</strong> tại Trường Đại học Lạc Hồng, thời gian đào tạo từ năm 2023 đến năm 2027.
+              </p>
+
+              <p class="email-paragraph">
+                Tôi viết thư này với mong muốn được ứng tuyển và có cơ hội làm việc tại Công ty Hyundai Ngọc Phát – Biên Hòa, nơi tôi có thể vận dụng kiến thức chuyên ngành đã học, phát huy năng lực bản thân và tích lũy thêm kinh nghiệm thực tế trong lĩnh vực ô tô.
+              </p>
+
+              <p class="email-paragraph">
+                Trong quá trình học tập và rèn luyện, tôi đã trang bị cho mình những kiến thức và kỹ năng chuyên môn như:
+              </p>
+
+              <ul class="email-bullets">
+                <li><strong>Kiến thức chuyên ngành:</strong> Nắm vững các kiến thức cơ bản về cấu tạo, nguyên lý hoạt động và bảo dưỡng, sửa chữa các hệ thống trên ô tô.</li>
+                <li><strong>Kỹ năng chuyên môn:</strong> Có khả năng tìm hiểu, phân tích nguyên lý hoạt động của các hệ thống ô tô; sử dụng phần mềm CATIA phục vụ học tập và thiết kế kỹ thuật.</li>
+                <li><strong>Kinh nghiệm thực tế:</strong> Đã có thời gian thực tập tại Hyundai Ngọc Phát – Biên Hòa, qua đó có cơ hội tiếp xúc với môi trường làm việc thực tế, tìm hiểu quy trình làm việc và nâng cao kiến thức chuyên ngành.</li>
+                <li><strong>Tác phong làm việc:</strong> Có tinh thần trách nhiệm, ham học hỏi, chủ động trong công việc và sẵn sàng tiếp thu những kiến thức mới.</li>
+              </ul>
+
+              <p class="email-paragraph">
+                Tôi nhận thấy Hyundai Ngọc Phát là môi trường phù hợp để tôi tiếp tục học hỏi, rèn luyện kỹ năng nghề nghiệp và phát triển bản thân trong lĩnh vực kỹ thuật ô tô.
+              </p>
+
+              <p class="email-paragraph">
+                Với tinh thần cầu tiến, sự nghiêm túc và mong muốn gắn bó lâu dài, tôi hy vọng sẽ có cơ hội trở thành một thành viên của Quý Công ty và đóng góp sức mình vào sự phát triển chung.
+              </p>
+
+              <p class="email-paragraph">
+                Tôi xin chân thành cảm ơn Quý Công ty đã dành thời gian xem xét hồ sơ ứng tuyển của tôi. Rất mong nhận được cơ hội phỏng vấn và trao đổi trực tiếp.
+              </p>
+
+              <p style="margin-top: 18px; font-weight: 700;">Trân trọng!</p>
+
+              <!-- Footer Signature Row (Left info + Right QR Code giống mẫu ảnh) -->
+              <div class="email-footer-row">
+                <div class="email-signature-info">
+                  <div class="email-sig-name">Phùng Trung Nguyên</div>
+                  <div>SĐT: 0373166715</div>
+                  <div>Email: nam46591@gmail.com</div>
+                </div>
+                <div class="email-qr-box">
+                  <img src="assets/images/qr-contact.png" alt="Mã QR liên hệ Phùng Trung Nguyên" class="email-qr-img">
+                  <span class="email-qr-label">Quét mã QR</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= BẢN TIẾNG ANH (KHI BẤM NÚT ENGLISH) ================= -->
+            <div id="coverLetterEn" class="cover-letter-lang" style="display: none;">
+              <div class="email-meta-group">
+                <div class="email-meta-row">
+                  <span class="email-meta-label">From:</span>
+                  <span class="email-meta-value">nam46591@gmail.com</span>
+                </div>
+                <div class="email-meta-row">
+                  <span class="email-meta-label">To:</span>
+                  <span class="email-meta-value">Board of Directors & Recruitment Department - Hyundai Ngoc Phat Bien Hoa</span>
+                </div>
+                <div class="email-meta-row">
+                  <span class="email-meta-label">Subject:</span>
+                  <span class="email-meta-value">Job Application – Automotive Technician – Phung Trung Nguyen</span>
+                </div>
+              </div>
+
+              <p class="email-salutation">Dear Board of Directors and Recruitment Department of Hyundai Ngoc Phat – Bien Hoa,</p>
+
+              <p class="email-paragraph">
+                My name is <strong>Phung Trung Nguyen</strong>, currently a final-year student majoring in <strong>Automotive Engineering</strong> at Lac Hong University, training period from 2023 to 2027.
+              </p>
+
+              <p class="email-paragraph">
+                I am writing this letter to formally apply for an opportunity to work at Hyundai Ngoc Phat – Bien Hoa, where I can apply my acquired specialized knowledge, leverage my abilities, and gain further practical experience in the automotive industry.
+              </p>
+
+              <p class="email-paragraph">
+                Throughout my academic studies and training, I have equipped myself with technical knowledge and specialized skills:
+              </p>
+
+              <ul class="email-bullets">
+                <li><strong>Specialized Knowledge:</strong> Solid understanding of fundamental structure, operating principles, maintenance, and repair of automotive systems.</li>
+                <li><strong>Professional Skills:</strong> Capability to research and analyze the operating principles of automotive systems; proficient in using CATIA software for technical study and engineering design.</li>
+                <li><strong>Practical Experience:</strong> Prior internship at Hyundai Ngoc Phat – Bien Hoa, gaining direct exposure to a real service workshop environment, standard procedures, and enhanced technical knowledge.</li>
+                <li><strong>Work Ethic:</strong> High sense of responsibility, eager to learn, proactive, and always open to acquiring new technical expertise.</li>
+              </ul>
+
+              <p class="email-paragraph">
+                I recognize Hyundai Ngoc Phat as an ideal professional environment for me to continuously learn, hone my vocational skills, and develop myself in the field of automotive technology.
+              </p>
+
+              <p class="email-paragraph">
+                With a progressive mindset, dedication, and a long-term commitment, I hope to have the opportunity to become a valued member of your Company and contribute to our mutual growth.
+              </p>
+
+              <p class="email-paragraph">
+                Thank you very much for taking the time to consider my application. I look forward to the opportunity of an interview and direct discussion.
+              </p>
+
+              <p style="margin-top: 18px; font-weight: 700;">Sincerely,</p>
+
+              <!-- Footer Signature Row (English) -->
+              <div class="email-footer-row">
+                <div class="email-signature-info">
+                  <div class="email-sig-name">Phung Trung Nguyen</div>
+                  <div>Phone: 0373166715</div>
+                  <div>Email: nam46591@gmail.com</div>
+                </div>
+                <div class="email-qr-box">
+                  <img src="assets/images/qr-contact.png" alt="QR Code Phung Trung Nguyen" class="email-qr-img">
+                  <span class="email-qr-label">Scan QR Code</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ẢNH CV GỐC ================= -->
+    <section class="section" id="cv-image">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">BẢN THIẾT KẾ GỐC</span>
+          <h2 class="section-title">Ảnh CV</h2>
+        </div>
+
+        <div style="max-width:500px; margin:0 auto; text-align:center;">
+          <div class="gallery-item" data-caption="Ảnh CV Gốc - Phùng Trung Nguyên">
+            <div class="gallery-thumb-wrap" style="height:auto;">
+              <img src="assets/images/cv-original.png" alt="Ảnh CV Phùng Trung Nguyên" style="width:100%; border-radius:var(--radius-md);">
+              <div class="gallery-overlay">
+                <span class="gallery-category">BẢN GỐC</span>
+                <h4 class="gallery-caption-title">Nhấp để xem phóng to ảnh CV</h4>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:20px;">
+            <a href="assets/images/cv-original.png" download="CV_Phung_Trung_Nguyen.png" class="btn btn-primary">
+              Tải Ảnh CV Gốc Về Máy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= THÔNG TIN LIÊN HỆ ================= -->
+    <section class="section" id="contact" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">KẾT NỐI</span>
+          <h2 class="section-title">Thông Tin Liên Hệ</h2>
+        </div>
+
+        <div style="max-width:700px; margin:0 auto;">
+          <div class="contact-info-cards">
+            <!-- Email -->
+            <div class="contact-card">
+              <div class="contact-card-main">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-details">
+                  <span>Địa chỉ Gmail của tôi</span>
+                  <strong>nam46591@gmail.com</strong>
+                </div>
+              </div>
+              <div style="display:flex; gap:8px;">
+                <a href="mailto:nam46591@gmail.com" class="copy-btn" style="background:var(--accent-primary); color:white;">
+                  Gửi Mail
+                </a>
+                <button class="copy-btn" data-copy="nam46591@gmail.com">
+                  Sao Chép
+                </button>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card">
+              <div class="contact-card-main">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-details">
+                  <span>SĐT của tôi</span>
+                  <strong>0373166715</strong>
+                </div>
+              </div>
+              <div style="display:flex; gap:8px;">
+                <a href="tel:0373166715" class="copy-btn" style="background:var(--accent-primary); color:white;">
+                  Gọi Ngay
+                </a>
+                <button class="copy-btn" data-copy="0373166715">
+                  Sao Chép
+                </button>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="contact-card">
+              <div class="contact-card-main">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-details">
+                  <span>Địa chỉ</span>
+                  <strong>Phú Yên</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand">
+            <div class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <div class="brand-title">
+              <span>Phùng Trung Nguyên</span>
+              <span>Sinh viên Kỹ thuật Ô tô</span>
+            </div>
+          </div>
+          <div class="footer-slogan">
+            “Đam mê ô tô – Kiến tạo tương lai” /// “Learning today for a better tomorrow”
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#hero" class="footer-link">Trang Chủ</a>
+          <a href="#about" class="footer-link">Giới Thiệu</a>
+          <a href="#education" class="footer-link">Học Vấn</a>
+          <a href="#experience" class="footer-link">Kinh Nghiệm</a>
+          <a href="#robocon" class="footer-link">Robocon</a>
+          <a href="#competition" class="footer-link">Hội Thi Tay Nghề</a>
+          <a href="#cad" class="footer-link">AutoCAD & CATIA</a>
+          <a href="#other-skills" class="footer-link">Kỹ Năng Khác</a>
+          <a href="#cover-letter" class="footer-link">Thư Ứng Tuyển</a>
+          <a href="#cv-image" class="footer-link">Ảnh CV</a>
+          <a href="#contact" class="footer-link">Liên Hệ</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Phùng Trung Nguyên.
+        </div>
+        <a href="#hero" class="back-to-top">
+          <span>Lên đầu trang</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX MODAL ================= -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Xem ảnh phóng to">
+    <div class="lightbox-content-box">
+      <button class="lightbox-close-btn" id="lightboxClose" aria-label="Đóng">&times;</button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+
+      <!-- Navigation buttons -->
+      <button class="lightbox-nav-btn lightbox-prev" id="lightboxPrev" aria-label="Ảnh trước">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="lightbox-nav-btn lightbox-next" id="lightboxNext" aria-label="Ảnh kế tiếp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ================= TOAST NOTIFICATION ================= -->
+  <div class="toast-notice" id="toastNotice">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toastMsg">Đã sao chép!</span>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
